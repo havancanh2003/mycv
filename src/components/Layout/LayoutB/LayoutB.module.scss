@@ -1,0 +1,94 @@
+.section{
+    width: 100%;
+    height: auto;
+    margin: 3rem auto;
+    //border: 1px solid #333;
+    padding: 0 4rem 1rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.header{
+    
+    padding: 1rem 4rem 0 4rem;
+    //border-bottom:2px solid #333 ;
+    background-color: #eee9e9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.desName{
+    text-transform: capitalize;
+    transform: translateX(7.6%);
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.avt{
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //position: relative;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transform: translateY(15%);
+}
+.avt img{
+    height: 93%;
+    width: 93%;
+        // width: 100%;
+        // object-fit: cover;
+        // object-position: center;
+
+}
+.about_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    i{
+        font-size: 3rem;
+        padding: 5px;
+        margin: 3px;
+        border: 1px solid #bcb8b8; 
+        border-radius: 10px;
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.left_container{
+    width: 30%;
+    background-color: #eee9e9;
+    border-radius: 10px;
+    padding: 1.6rem;
+} 
+.title_style{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    border-bottom:1px solid #333 ;
+    i {
+        line-height: 1.5;
+        margin-right: 10px;
+    }
+}
+.education{
+    text-transform: capitalize;
+    margin-bottom: 1.8rem;
+}
+    
+.main_container{
+    width: 65%;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 1.6rem;
+}
+.experience, .project, .exp{
+    margin-bottom: 1.6rem;
+    //margin-top: 1.6rem;
+}

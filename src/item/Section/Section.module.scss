@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    input{
+        flex: 1;
+        padding: 3px 0px 3px 8px;
+        border: 0.1px solid #d0cece;
+    }
+    label{
+        //min-width: 10rem;
+        //font-weight: 500;
+    }
+}

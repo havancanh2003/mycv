@@ -1,0 +1,82 @@
+.pdf{
+    margin: 3rem auto ;
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+.yourself{
+    width: 30%;
+    height: auto;
+    background-color: #003333;
+    padding: 2rem 3.5rem;
+    color: #fff;
+}
+.wrapYS{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutMe{
+    width: 70%;
+    height: auto;
+    padding: 2rem 3.5rem;
+    background-color: #fff;
+    color: black;
+}
+.avt{
+    margin: 5px;
+    width: 150px;
+    height:150px;
+    //border: 1px dashed #bebcbc ;
+    border-radius: 50%;
+    //object-fit: cover;
+    
+    img{
+        vertical-align: middle;
+        width: 150px;
+        height:150px;
+        //width: 100%;
+        border-radius: 50%;
+    }
+}
+.aboutMe h3{
+    //background-color: #efeeee;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 1rem 0 1rem 0;
+    border-radius: 10px;
+    padding-left: 5px;
+    text-transform: uppercase
+    //margin-right: 10px;
+}
+.styleTitle{
+    background-color: #efeeee;
+    border-radius: 10px;
+    padding-left: 5px;
+    text-transform: capitalize;
+    margin: 5px 0 5px 0;
+}
+.aboutYourself {
+    margin-bottom: 2rem;
+ul {
+    font-weight: 100;
+    padding-bottom: 5px;
+    color: #efeeee;
+    //text-transform: capitalize ;
+}}
+.skillYs span{
+    font-weight: 100;
+    padding-bottom: 5px;
+    color: #efeeee;
+    text-transform: capitalize ;
+}
+.aboutMe h3{
+    margin-top: 3rem;
+}
+.education, .exp{
+    h4{
+         margin: 1rem 0 1rem 0;
+    }
+    text-transform: capitalize;
+}

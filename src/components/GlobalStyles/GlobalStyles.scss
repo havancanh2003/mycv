@@ -1,0 +1,21 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,500;0,700;0,800;1,300;1,400;1,600&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    //font-family: 'Raleway', sans-serif;
+    //font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 1 1000;
+    font-style: normal;
+}

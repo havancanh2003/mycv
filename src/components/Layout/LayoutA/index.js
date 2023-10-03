@@ -49,7 +49,7 @@ const LayoutA = ({
           <div className={cx("about")}>
             <h3>About</h3>
             <div className={cx("icon_about")}>
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone"></i>
               <span>{phone}</span>
             </div>
             <div className={cx("icon_about")}>
@@ -57,11 +57,11 @@ const LayoutA = ({
               <span>{adress}</span>
             </div>
             <div className={cx("icon_about")}>
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               <span>{email}</span>
             </div>
             <div className={cx("icon_about")}>
-              <i class="fa-solid fa-circle-user"></i>
+              <i className="fa-solid fa-circle-user"></i>
               <span>{summary}</span>
             </div>
           </div>
@@ -127,7 +127,7 @@ const LayoutA = ({
         <div className={cx("main_container")}>
           <div className={cx("achievement")}>
             <div className={cx("title_style")}>
-              <i class="fa-solid fa-star-half-stroke"></i>
+              <i className="fa-solid fa-star-half-stroke"></i>
               <h3>Achievement</h3>
             </div>
             {achievement.map((achi) => (
@@ -139,7 +139,7 @@ const LayoutA = ({
           </div>
           <div className={cx("experience")}>
             <div className={cx("title_style")} style={{ marginBottom: "1rem" }}>
-              <i class="fa-solid fa-briefcase"></i>
+              <i className="fa-solid fa-briefcase"></i>
               <h3>Experience</h3>
             </div>
             {exp.map((exper, index) => (
@@ -187,7 +187,7 @@ const LayoutA = ({
           </div>
           <div className={cx("project")}>
             <div className={cx("title_style")} style={{ marginBottom: "1rem" }}>
-              <i class="fa-solid fa-diagram-project"></i>
+              <i className="fa-solid fa-diagram-project"></i>
               <h3>Project</h3>
             </div>
             {project.map((item) => (

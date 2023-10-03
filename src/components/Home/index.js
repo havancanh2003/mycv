@@ -17,13 +17,13 @@ const Home = () => {
           Only 2% of resume make it past the
           <br /> first round. Be in the top 2%
         </p>
-        <spam className={cx("about")}>
+        <span className={cx("about")}>
           Use professional field-tested resume templates that follow the exact
           'resum
           <br />
           rule' employes look.Easy to use and dove within minutes - try now for
           free!
-        </spam>
+        </span>
         <Link style={{ padding: "0", margin: "0" }} to="/cv">
           <button className={cx("btn")}>CREATE MY RUSUME</button>
         </Link>
@@ -65,7 +65,7 @@ const Home = () => {
           <div key={index} className={cx("desq")}>
             <i
               style={{ fontSize: "5rem", backgroundColor: "" }}
-              class={item.logo}
+              className={item.logo}
             ></i>
             <h3>{item.title}</h3>
             <p>{item.des}</p>

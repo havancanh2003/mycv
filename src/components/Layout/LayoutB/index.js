@@ -36,17 +36,17 @@ const LayoutA = ({
             {avt ? <img src={avt} alt="" /> : <img src="" alt="" />}
           </div>
           <div className={cx("about_item")}>
-            <i class="fa-solid fa-square-phone"></i>
+            <i className="fa-solid fa-square-phone"></i>
             {phone}
           </div>
 
           <div className={cx("about_item")}>
-            <i class="fa-solid fa-envelope-open-text"></i>
+            <i className="fa-solid fa-envelope-open-text"></i>
             {email}
           </div>
 
           <div className={cx("about_item")}>
-            <i class="fa-solid fa-location-dot"></i>
+            <i className="fa-solid fa-location-dot"></i>
             {phone}
           </div>
         </div>
@@ -59,7 +59,7 @@ const LayoutA = ({
             className={cx("achievement")}
           >
             <div className={cx("title_style")}>
-              <i class="fa-solid fa-star-half-stroke"></i>
+              <i className="fa-solid fa-star-half-stroke"></i>
               <h3>Achievement</h3>
             </div>
             {achievement.map((achi) => (
@@ -71,7 +71,7 @@ const LayoutA = ({
           </div>
           <div className={cx("education")}>
             <div className={cx("title_style")}>
-              <i class="fa-solid fa-graduation-cap"></i>
+              <i className="fa-solid fa-graduation-cap"></i>
               <h3>Education</h3>
             </div>
             {edu.map((item, index) => (
@@ -130,7 +130,7 @@ const LayoutA = ({
             className={cx("skill")}
           >
             <div className={cx("title_style")} style={{ marginBottom: "1rem" }}>
-              <i class="fa-solid fa-gears"></i>
+              <i className="fa-solid fa-gears"></i>
               <h3>Skills</h3>
             </div>
             {skill != null ? (
@@ -147,7 +147,7 @@ const LayoutA = ({
         <div className={cx("main_container")}>
           <div className={cx("experience")}>
             <div className={cx("title_style")} style={{ marginBottom: "1rem" }}>
-              <i class="fa-solid fa-briefcase"></i>
+              <i className="fa-solid fa-briefcase"></i>
               <h3>Experience</h3>
             </div>
             {exp.map((exper, index) => (
@@ -195,7 +195,7 @@ const LayoutA = ({
           </div>
           <div className={cx("project")}>
             <div className={cx("title_style")} style={{ marginBottom: "1rem" }}>
-              <i class="fa-solid fa-diagram-project"></i>
+              <i className="fa-solid fa-diagram-project"></i>
               <h3>Project</h3>
             </div>
             {project.map((item) => (

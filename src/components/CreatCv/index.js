@@ -298,7 +298,7 @@ const CreatCv = () => {
                 //borderRadius: "60%",
                 //padding: "5px",
               }}
-              class="fa-solid fa-minus"
+              className="fa-solid fa-minus"
               onClick={() => handleReomveAchievement(index)}
             ></i>
           )}
@@ -316,7 +316,7 @@ const CreatCv = () => {
         </div>
       ))}
       <i
-        class="fa-solid fa-plus"
+        className="fa-solid fa-plus"
         style={{
           padding: "3.5px",
           backgroundColor: " #00B2EE",
@@ -333,7 +333,7 @@ const CreatCv = () => {
           ) : (
             <i
               style={{ float: "right", marginBottom: "2rem" }}
-              class="fa-solid fa-minus"
+              className="fa-solid fa-minus"
               onClick={() => handleReomveExp(index)}
             ></i>
           )}
@@ -351,7 +351,7 @@ const CreatCv = () => {
         </div>
       ))}
       <i
-        class="fa-solid fa-plus"
+        className="fa-solid fa-plus"
         style={{
           padding: "3.5px",
           backgroundColor: " #00B2EE",
@@ -359,17 +359,6 @@ const CreatCv = () => {
         }}
         onClick={handleAddExp}
       ></i>
-      {/* <div className={cx("sec")}>
-        {EXP.map((item, index) => (
-          <Section
-            key={index}
-            name={item.name}
-            type={item.type}
-            placeholder={item.plac}
-          />
-        ))}
-      </div> */}
-      {/* education */}
       <p style={{ marginTop: "1rem" }}>EDUCATION</p>
       {edu.map((edu, index) => (
         <div key={index}>
@@ -378,7 +367,7 @@ const CreatCv = () => {
           ) : (
             <i
               style={{ float: "right", marginBottom: "2rem" }}
-              class="fa-solid fa-minus"
+              className="fa-solid fa-minus"
               onClick={() => handleReomveEdu(index)}
             ></i>
           )}
@@ -396,7 +385,7 @@ const CreatCv = () => {
         </div>
       ))}
       <i
-        class="fa-solid fa-plus"
+        className="fa-solid fa-plus"
         style={{
           padding: "3.5px",
           backgroundColor: " #00B2EE",
@@ -404,7 +393,7 @@ const CreatCv = () => {
         }}
         onClick={handleAddEdu}
       ></i>
-      {/* <div className={cx("sec")}>
+      {/* <div classNameName={cx("sec")}>
         {education.map((item, index) => (
           <Section
             key={index}
@@ -424,7 +413,7 @@ const CreatCv = () => {
           ) : (
             <i
               style={{ float: "right", marginBottom: "2rem" }}
-              class="fa-solid fa-minus"
+              className="fa-solid fa-minus"
               onClick={() => handleReomveProj(index)}
             ></i>
           )}
@@ -442,7 +431,7 @@ const CreatCv = () => {
         </div>
       ))}
       <i
-        class="fa-solid fa-plus"
+        className="fa-solid fa-plus"
         style={{
           padding: "3.5px",
           backgroundColor: " #00B2EE",
@@ -459,7 +448,7 @@ const CreatCv = () => {
           ) : (
             <i
               style={{ float: "right", marginBottom: "2rem" }}
-              class="fa-solid fa-minus"
+              className="fa-solid fa-minus"
               onClick={() => handleReomveSkill(index)}
             ></i>
           )}
@@ -473,7 +462,7 @@ const CreatCv = () => {
         </div>
       ))}
       <i
-        class="fa-solid fa-plus"
+        className="fa-solid fa-plus"
         style={{
           padding: "3.5px",
           backgroundColor: " #00B2EE",
@@ -484,143 +473,6 @@ const CreatCv = () => {
 
       {/* cv */}
       <div ref={componentRef} className={cx("pdf")}>
-        {/* <div className={cx("yourself")}>
-          <div className={cx("wrapYS")}>
-            <div className={cx("avt")}>
-              {avt ? <img src={avt} alt="" /> : <img src="" alt="" />}
-            </div>
-            <div style={{ display: "flex" }}>
-              <h3>{firstName} &nbsp;</h3>
-              <h3>{middletName} &nbsp;</h3>
-              <h3>{lastName}</h3>
-            </div>
-            <hr style={{ width: "5rem" }} />
-            <p
-              style={{
-                backgroundColor: "initial",
-                textTransform: "capitalize",
-              }}
-            >
-              {designation}
-            </p>
-          </div>
-          <div className={cx("aboutYourself")}>
-            <h4 style={{ fontWeight: "300" }}>ABOUT</h4>
-            <ul>{phone}</ul>
-            <ul>{email}</ul>
-            <ul>{adress}</ul>
-            <ul>{summary}</ul>
-          </div>
-          <h4 style={{ fontWeight: "300" }}>SKILLS</h4>
-          {skill.map((item, index) => (
-            <div key={index} className={cx("skillYs")}>
-              <span>{item.skillMe}</span>
-            </div>
-          ))}
-        </div> */}
-        {/* <div className={cx("aboutMe")}> */}
-        {/* achi */}
-        {/* <h3>Achievement</h3>
-          {achievement.map((achi, index) => (
-            <div key={index} className={cx("achievement")}>
-              <h4 className={cx("styleTitle")}>{achi.title}</h4>
-              <span>{achi.desc}</span>
-            </div>
-          ))} */}
-        {/* edu */}
-        {/* <h3>Education</h3>
-          {edu.map((item, index) => (
-            <div key={index} className={cx("education")}>
-              <h4>{item.school}</h4>
-              <h4>
-                {item.dgree}{" "}
-                <span style={{ fontWeight: "100", color: "#696969" }}>
-                  {item.city}
-                </span>{" "}
-              </h4>
-              <span
-                style={{
-                  backgroundColor: "#003333",
-                  color: "#fff",
-                  padding: "5px",
-                  borderRadius: "5px",
-                }}
-              >
-                {item.startDate}
-              </span>{" "}
-              <span
-                style={{
-                  backgroundColor: "#003333",
-                  color: "#fff",
-                  padding: "5px",
-                  borderRadius: "5px",
-                  marginLeft: "2.5px",
-                }}
-              >
-                {" "}
-                {item.endDate}
-              </span>
-              <span style={{ fontWeight: "100", color: "#696969" }}>
-                {item.Des}
-              </span>{" "}
-            </div>
-          ))} */}
-        {/* exp */}
-        {/* <h3>Experience</h3>
-          {exp.map((exper, index) => (
-            <div key={index} className={cx("exp")}>
-              <h4>{exper.title}</h4>
-              <h4>{exper.company}</h4>
-              <span style={{ fontWeight: "100", color: "#696969" }}>
-                {exper.location}
-              </span>{" "}
-              <span
-                style={{
-                  backgroundColor: "#003333",
-                  color: "#fff",
-                  padding: "5px",
-                  borderRadius: "5px",
-                }}
-              >
-                {exper.startDate}
-              </span>{" "}
-              <span
-                style={{
-                  backgroundColor: "#003333",
-                  color: "#fff",
-                  padding: "5px",
-                  borderRadius: "5px",
-                  marginLeft: "2.5px",
-                }}
-              >
-                {" "}
-                {exper.endDate}
-              </span>
-              <span style={{ fontWeight: "100", color: "#696969" }}>
-                {exper.Des}
-              </span>{" "}
-            </div>
-          ))} */}
-        {/* proj */}
-        {/* <h3>Project</h3>
-          {project.map((item) => (
-            <div key={item} className={cx("achievement")}>
-              <div style={{ marginBottom: "2rem" }}>
-                <span>{item.PrName}</span>
-                <br />
-                <span>{item.PrLink}</span>
-                <br />
-                <span>{item.Des}</span>
-              </div>
-            </div>
-          ))} */}
-        {/* </div> */}
-        {/* {switch (layer) {
-          case 0:
-            item.title = e.target.value;
-            break;
-
-        } */}
         {layer === layoutB ? (
           <LayoutB
             avt={avt}
@@ -673,41 +525,6 @@ const CreatCv = () => {
             project={project}
           />
         )}
-
-        {/* <Cv
-          avt={avt}
-          firstName={firstName}
-          middletName={middletName}
-          lastName={lastName}
-          designation={designation}
-          phone={phone}
-          email={email}
-          adress={adress}
-          summary={summary}
-          skill={skill}
-          achievement={achievement}
-          edu={edu}
-          exp={exp}
-          project={project}
-        /> */}
-        {/* {template ? (
-          <div className={cx("templateLayout")}>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU-849YTx0h_H8kax-1xacWJij8wqYD0Lg8Z3i0D7Wb4yNcBDzQDDbyHXGgGS65cX8U&usqp=CAU"
-              alt=""
-            />
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU-849YTx0h_H8kax-1xacWJij8wqYD0Lg8Z3i0D7Wb4yNcBDzQDDbyHXGgGS65cX8U&usqp=CAU"
-              alt=""
-            />
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU-849YTx0h_H8kax-1xacWJij8wqYD0Lg8Z3i0D7Wb4yNcBDzQDDbyHXGgGS65cX8U&usqp=CAU"
-              alt=""
-            />
-          </div>
-        ) : (
-          <></>
-        )} */}
       </div>
       <div style={{ display: "flex" }}>
         <button className={cx("btnSubmit")} onClick={handlePrint}>
@@ -731,18 +548,6 @@ const CreatCv = () => {
                   }}
                 />
               ))}
-              {/* <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU-849YTx0h_H8kax-1xacWJij8wqYD0Lg8Z3i0D7Wb4yNcBDzQDDbyHXGgGS65cX8U&usqp=CAU"
-                alt=""
-              />
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU-849YTx0h_H8kax-1xacWJij8wqYD0Lg8Z3i0D7Wb4yNcBDzQDDbyHXGgGS65cX8U&usqp=CAU"
-                alt=""
-              />
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU-849YTx0h_H8kax-1xacWJij8wqYD0Lg8Z3i0D7Wb4yNcBDzQDDbyHXGgGS65cX8U&usqp=CAU"
-                alt=""
-              /> */}
             </div>
           ) : (
             <></>

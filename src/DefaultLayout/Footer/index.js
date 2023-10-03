@@ -8,7 +8,9 @@ function Footer() {
     <footer>
       <span>
         @copyright 2023, All Rights Reserver -
-        <span style={{ color: "#fff" }}>build.resume</span>{" "}
+        <span className={cx("footer")} style={{ color: "#fff" }}>
+          build.resume
+        </span>{" "}
       </span>
     </footer>
   );

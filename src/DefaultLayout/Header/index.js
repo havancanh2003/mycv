@@ -8,14 +8,14 @@ function Header() {
     <header className={cx("head")}>
       <Link style={{ textDecoration: "none", color: "#333" }} to="/">
         <div className={cx("logo")}>
-          <i class="fa-brands fa-readme"></i>
+          <i className="fa-brands fa-readme"></i>
 
           <span>
             build<span style={{ color: "#00B2EE" }}>resume</span>
           </span>
         </div>
       </Link>
-      <i class="fa-sharp fa-solid fa-bars" style={{ color: "#00B2EE" }}></i>
+      <i className="fa-sharp fa-solid fa-bars" style={{ color: "#00B2EE" }}></i>
     </header>
   );
 }

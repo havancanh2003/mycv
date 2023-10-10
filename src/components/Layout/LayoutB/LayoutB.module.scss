@@ -8,7 +8,7 @@
 }
 .header{
     
-    padding: 1rem 4rem 0 4rem;
+    padding: 0rem 4rem 0 4rem;
     //border-bottom:2px solid #333 ;
     background-color: #eee9e9;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -58,8 +58,8 @@
 .container{
     display: flex;
     justify-content: space-between;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
 }
 .left_container{
     width: 30%;
